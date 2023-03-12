@@ -63,7 +63,7 @@ stage('DEPLOY'){
 
 steps{
 
-    sh "cp -r /mnt/project-8/game-of-life/gameoflife-web/target/gamoflife.war /opt/server/apache-tomcat-9.0.71/webapps" 
+    sh "cp -r /mnt/project-8/game-of-life/gameoflife-web/target/gameoflife.war /opt/server/apache-tomcat-9.0.71/webapps" 
 
 
 
